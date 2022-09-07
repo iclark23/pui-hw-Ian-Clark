@@ -1,0 +1,104 @@
+
+p {
+    color: black;
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+h2 :hover {
+
+    background-color: yellow;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+
+}
+
+h3 :hover {
+
+    background-color: yellow;
+}
+
+
+img {
+    max-width: 20%;
+    border: 2px solid black;
+
+}
+
+img :hover {
+
+    background-color: yellow;
+
+}
+
+.price {
+    display: inline-block; text-align: left ;
+}
+
+.main {
+    text-align: left;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#rolls {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#packs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button :hover {
+    background-color: yellow;
+}
+
+.remove {
+    font-weight:bold;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 10px;
+
+}
+
+.roll {
+    text-align: left;
+}
