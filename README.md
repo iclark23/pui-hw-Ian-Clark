@@ -1,5 +1,5 @@
 # PUI homework
 
-Deployed website: `add the URL to your deployed website`
+Deployed website: https://iclark23.github.io/pui-hw-Ian-Clark/
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/iclark23/pui-hw-Ian-Clark
