@@ -1,9 +1,9 @@
 
-p {
+/*p {
     color: black;
     text-align: center;
     
-}
+}*/
 
 h1 {
     text-align: center;
@@ -101,4 +101,9 @@ button :hover {
 
 .roll {
     text-align: left;
+}
+
+.container {
+    display: inline-block;
+
 }

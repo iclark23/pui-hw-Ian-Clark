@@ -1,0 +1,201 @@
+
+
+nav {
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 50px;
+}
+
+nav a {
+    border: none;
+    margin: 10px;
+    padding: 2px 8px;
+    color: #000;
+    text-decoration: none;
+    font-size: larger;
+}
+
+nav a:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.left {
+    width: 30%;
+}
+
+.image {
+    width: 250px;
+    border: 2px solid black;
+    display: block;
+    margin: 10px;
+}
+
+.text:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.description {
+    margin: 10px;
+    /* text-decoration: underline; */
+}
+
+.description-2 {
+    margin: 25px;
+
+}
+
+/* .description-height {
+    margin-top: 20px;
+} */
+
+span {
+    text-decoration: underline;
+}
+
+.paragraph {
+    display: flex;
+    text-align:end;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.paragraph-2 {
+    margin-bottom: 5px;
+}
+
+.flexbox-container-paragraph {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#rolls {
+    border: 2px solid black;
+    width: 100%;
+}
+
+#packs {
+    width: 129px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+button {
+    display: block;
+    /* margin-top: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.image-number-2 {
+    width: 450px;
+    border: 2px solid black;
+    display: block;
+    margin: 10px;
+    /* height: 300px; */
+}
+
+.image-number-3 {
+    width: 200px;
+    border: 2px solid black;
+    display: block;
+    margin: 10px;
+
+}
+
+.decription-height {
+    height: 20px;
+}
+
+.flex-container-2 {
+    margin: 25px;
+}
+
+.flexbox-container-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.black {
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+}
+
+.right {
+    width: 100%;
+}
+
+.flexbox-container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divider-line {
+    border-bottom: 3px solid black;
+}
+
+.Remove {
+    text-decoration: underline;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px; */
+}
+
+.total-label {
+    margin-left: 240px;
+    width: 160px;
+    margin-right: 15px;
+}
+
+.button {
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button > button {
+    display: inherit;
+    margin-left: 0;
+    margin-right: 0;
+}
