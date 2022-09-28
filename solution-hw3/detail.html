@@ -16,11 +16,13 @@
 
     <header>
         <div class="left">
+            <a href="./index.html">
             <img src="./logo/logo-01.svg" alt="Company Logo">
+            </a>
         </div>
         <div class="right">
             <nav>
-                <a href="product.html">PRODUCTS</a>
+                <a href="./index.html">PRODUCTS</a>
                 <a href="cart.html">CART</a>
             </nav>
             <p class="paragraph">Original Cinnamon Roll</p>
@@ -31,7 +33,7 @@
 
         <div class="flexbox-container">
 
-            <div class="text">
+            <div>
                 <img class="image-number-2" src="./products/original-cinnamon-roll.jpg" alt="Cinnamon Roll">
             </div>
 
@@ -46,18 +48,18 @@
 
                 <div class="flex-container-2">
                     <p class="paragraph-2">Glazing:</p>
-                    <select name="rolls" class="rolls" id="dropdownglaze">
+                    <select name="rolls" class="rolls" id="dropdownglaze" onchange="changeGlazing(this)">
                         
                     </select>
 
                     <p class="paragraph-2">Pack Size:</p>
-                    <select name="packs" class="packs" id="dropdownpacks">
+                    <select name="packs" class="packs" id="dropdownpacks" onchange="changeGlazing(this)">
                         
                     </select>
 
                     <div class="flexbox-container-button">
 
-                        <p class="price">
+                        <p class="price" id="changePrice">
                             $2.49
                         </p>
                         <div class="button-2">
