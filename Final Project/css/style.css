@@ -1,0 +1,80 @@
+#landingPage {
+    background-image: url("../assets/house.jpg");
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+h1 {
+    color: white
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+#name {
+    padding-left: 2%;
+}
+
+#title {
+    font-size: 35px;
+    margin-left: 10%;
+    width: 66%;
+}
+
+#selfDescription {
+    color: white;
+    padding-left: 2%;
+}
+
+#header {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 66%;
+}
+
+.methodTitle {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#section2 {
+    padding-top: 5%;
+}
+
+.methods {
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.content {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+#contentImage {
+    width: 60%;
+}
+
+#specialText {
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 40em;
+}
+
