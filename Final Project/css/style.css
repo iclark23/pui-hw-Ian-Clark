@@ -2,10 +2,12 @@
     background-image: url("../assets/house.jpg");
     padding-top: 3%;
     padding-bottom: 3%;
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
 }
 
 h1 {
-    color: white
+    color: white;
 }
 
 body {
@@ -14,7 +16,6 @@ body {
 
 p {
     color: white;
-    font-family: sans-serif;
 }
 
 #name {
@@ -30,13 +31,17 @@ p {
 #selfDescription {
     color: white;
     padding-left: 2%;
+    font-size: small;
+    margin-top: -1%;
+    font-style: italic;
 }
 
 #header {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 5%;
     margin-left: 10%;
-    width: 66%;
+    width: 35%;
+    font-family: sans-serif;
 }
 
 .methodTitle {
@@ -52,29 +57,141 @@ p {
 .methods {
     display: flex;
     justify-content: space-around;
-    background-color: cadetblue;
+    height: 400px;
+    padding-top: 5%;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    background-color: blue;
+}
+
+/* change button color and font style and size*/
+.buttons .btn {
+    background-color: white;
+    border-color: black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    margin-bottom: 1%;
+    transition-duration: 0.4s;
+
+}
+
+.buttons .btn:hover {
+    background-color: lightgrey;
+    /* Green */
+    color: black;
+}
+
+.buttons .btn:focus {
+    background-color: lightgrey;
+    color: black;
 }
 
 .content {
     width: 66%;
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
+    align-self: flex-start;
 }
 
-#contentImage {
+#designContentImage {
     width: 60%;
 }
 
-#specialText {
-    padding-left: 3%;
+#designText {
     padding-right: 3%;
     width: 40em;
+    color: black;
 }
 
+#researchContentImage {
+    width: 60%;
+}
+
+#researchText {
+    padding-right: 3%;
+    width: 40em;
+    color: black;
+}
+
+hr {
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 480px){
+
+    #header {
+        font-size: 12px;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 50%;
+        font-family: sans-serif;
+    }
+
+    .methodTitle {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: x-large;
+    }
+    .buttons .btn {
+        background-color: white;
+        border-color: black;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        margin-bottom: 1%;
+        transition-duration: 0.4s;
+        padding: 8px 16px;
+    
+    }
+    #researchText {
+        padding-right: 10%;
+        padding-left: 10%;
+        width: 40em;
+        color: black;
+        font-size: small;
+    }
+    #designText {
+        padding-right: 10%;
+        padding-left: 10%;
+        width: 40em;
+        color: black;
+        font-size: small;
+    }
+
+    #title {
+        font-size: 25px;
+        margin-left: 10%;
+        width: 66%;
+    }
+
+    #name {
+        padding-left: 2%;
+        font-size: x-large;
+    }
+
+    #selfDescription {
+        color: white;
+        padding-left: 2%;
+        font-size: small;
+        margin-top: -1%;
+        font-style: italic;
+        font-size: x-small;
+    }
+
+    .methods {
+        display: flex;
+        justify-content: space-around;
+        height: 350px;
+        padding-top: 5%;
+    }
+
+  
+}

@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design House</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js" defer></script>
+    <script src="./js/research.js" defer></script>
+    <script src="./js/design.js" defer></script>
+
 
 </head>
 
@@ -30,35 +32,36 @@
         <h1 class = "methodTitle">Research Methods</h1>
         <div class = "methods">
             <div class = "buttons">
-                <button type="button">Uncertainty Model</button>
-                <button type="button">User Interviews</button>
-                <button type="button">Card Sorting</button>
-                <button type="button">Directed Storytelling</button>
-                <button type="button">Competitve Analysis</button>
-                <button type="button">Affinity Diagram</button>
+                <button class = "btn" onclick = "researchContentDisplay(this)">Background Research</button>
+                <button class = "btn" onclick = "researchContentDisplay(this)">User Interviews</button>
+                <button class = "btn" onclick = "researchContentDisplay(this)">Card Sorting</button>
+                <button class = "btn" onclick = "researchContentDisplay(this)">Directed Storytelling</button>
+                <button class = "btn" onclick = "researchContentDisplay(this)">Competitive Analysis</button>
+                <button class = "btn" onclick = "researchContentDisplay(this)">Affinity Diagram</button>
             </div>
-            <div>
-                <p> Click on the buttons on the left to learn more.</p>
-
+            <div class = "content">
+                <p id = "researchText">Click on the buttons on the left to learn more.</p>
+                <img src = "" id = "researchContentImage">
             </div>
         </div>
 
+        <hr>
 
         <h1 class = "methodTitle">Design Methods</h1>
         <div id = "methodTitle">
             <div class = "methods">
                 <div class = "buttons">
-                    <button type="button" onclick = "designContent(this)">Reverse Assumptions</button>
-                    <button type="button" onclick = "designContent(this)">Creative Matrix</button>
-                    <button type="button" onclick = "designContent(this)">Conceptual Model</button>
-                    <button type="button" onclick = "designContent(this)">Service Blueprints</button>
-                    <button type="button">Customer Journey Maps</button>
-                    <button type="button">Storyboard</button>
-                    <button type="button">How Might We</button>
+                    <button class = "btn" onclick = "designContentDisplay(this)">Reverse Assumptions</button>
+                    <button class = "btn" onclick = "designContentDisplay(this)">Creative Matrix</button>
+                    <button class = "btn" onclick = "designContentDisplay(this)">Prototypes</button>
+                    <button class = "btn" onclick = "designContentDisplay(this)">Service Blueprints</button>
+                    <button class = "btn" onclick = "designContentDisplay(this)">Customer Journey Maps</button>
+                    <button class = "btn" onclick = "designContentDisplay(this)">Storyboards</button>
+                    <button class = "btn" onclick = "designContentDisplay(this)">How Might We</button>
                 </div>
                 <div class = "content">
-                    <img src = # id = "contentImage">
-                    <p id = "specialText">Click on the buttons on the left to learn more.</p>
+                    <p id = "designText">Click on the buttons on the left to learn more.</p>
+                    <img src = "" id = "designContentImage">
                 </div>
             </div>
     </div>
